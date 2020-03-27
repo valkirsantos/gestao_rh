@@ -1,0 +1,9 @@
+Criar arquivo chamado .gitignore
+
+1. Iniciar o git no terminal
+
+git init
+
+2. Ver os arquivos que estão disponíveis para subir ao git
+
+git status
