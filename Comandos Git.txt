@@ -7,3 +7,32 @@ git init
 2. Ver os arquivos que estão disponíveis para subir ao git
 
 git status
+
+3. Preparar os arquivos para subir ao git
+
+git add .
+
+4. Configurar o git na máquina
+
+git config --global user.email "valkirsantos@gmail.com"
+git config --global user.name "Valkir Santos"
+
+5. Efetuar o commit
+
+git commit -m "First commit"
+
+6. No git, criar o repositorio:
+
+echo "# gestao_rh" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/valkirsantos/gestao_rh.git
+git push -u origin master
+
+7. Aparecerá os passos para colocar no terminal. Porém, já foi efetuado anteriormente, somente necessário o "git remote" e "git push":
+
+git remote add origin https://github.com/valkirsantos/gestao_rh.git
+git push -u origin master
+
+
