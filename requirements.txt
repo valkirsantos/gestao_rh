@@ -25,7 +25,7 @@ python-crontab==2.3.5
 python-dateutil==2.7.5
 pytz==2018.5
 redis==3.0.1
-reportlab==3.5.11
+reportlab==3.5.55
 six==1.11.0
 tinycss2==0.6.1
 vine==1.1.4
